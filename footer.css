@@ -1,0 +1,259 @@
+   /* footer */
+
+.footer-top-bg {
+  background-color: #f1f1f1 !important;
+}
+.footer-bg {
+  background-color: #132a32 !important;
+}
+
+.footer-main {
+  padding: 3% !important;
+}
+
+.box-border-top {
+  border-top: 1px solid #e1e1e1;
+}
+
+.footer-content {
+    border-top: 1px solid #e1e1e1;
+    padding-top: 0px !important;
+}
+
+.footer-main .title {
+    margin-bottom: 20px !important;
+    position: relative !important;
+    font-size: 16px !important;
+    letter-spacing: 0.0625em !important;
+    font-weight: 500 !important;
+    color: #fff !important;
+    text-transform: uppercase !important;
+    display: block !important;
+}
+
+
+
+body {
+    font-family: 'Ubuntu', sans-serif !important;
+    font-size: 13px;
+
+    color: #333333;
+    font-weight: 400;
+
+    min-width: 320px;
+    position: relative;
+    -webkit-text-size-adjust: none;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .smartmenu {
+    font-family: 'Ubuntu', sans-serif !important;
+}
+
+
+.block-wellcome {
+    padding-top: 1%;
+}
+
+.footer-title {
+    font-family: 'Ubuntu',sans-serif;
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: #fff;
+    font-weight: 300;
+}
+
+.footer-main .footer-links li {
+    padding: 2px 0 !important;
+    line-height: 0.9em !important;
+}
+
+.assort-title {
+text-transform: uppercase;
+}
+
+.assort-sub-cat {
+  padding-left: 5px;
+}
+
+.maincolor {
+  font-family: "museo-slab" !important;
+  color: #00A099 !important;
+  font-size: 1.4em;
+  font-weight: 400;
+}
+
+.page-footer a {
+  text-decoration: none;
+  color: #999 !important;
+  font-size: 12px;
+  letter-spacing: 0.0625em !important;
+
+}
+
+.page-footer a:hover {
+    color: #ed7b1d !important;
+}
+
+.staff-img {
+  padding-top: 10%;
+}
+
+.selling-feature .row>div {
+    border-right: 1px solid #ccc;
+    margin-bottom: 0px !important;
+}
+
+ li .assort-sub-cat {
+   color: #999 !important;
+    text-transform: capitalize;
+}
+
+ul.left {
+    list-style: none;
+}
+
+ul.left li{
+    padding: 10px;
+}
+
+ul.right {
+    list-style: none;
+}
+
+ul.right li{
+    padding: 10px;
+}
+
+.service-title {
+  color: #132a32 !important;
+  font-size: 1.6em !important;
+  letter-spacing: 0.03em !important;
+  font-weight: 600;
+  margin: 20px 0px 0px;
+}
+
+.service-subtitle {
+  color: #132a32;
+}
+
+.full {
+  display: block;
+}
+
+.margin-under {
+  margin-bottom: 30px;
+}
+
+.footer-copyright {
+  display: block;
+}
+
+.logo-img {
+  max-width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  padding-top: 4px;
+}
+
+.payment-img {
+  max-width: 300px;
+  text-align: center;
+}
+
+.staff-img {
+  opacity: 1;
+  filter: grayscale(0%);
+}
+
+.absolute-top {
+  position: absolute;
+  top: -25px;
+  left: 60%;
+  z-index: 200;
+}
+
+.text-copyright {
+  text-align: center !important;
+  font-size: 1.0rem !important;
+  margin-top: 4px !important;
+  padding-bottom: 20px !important;
+}
+
+.center {
+  position: relative;
+  margin: auto;
+  width: 80%;
+}
+
+
+.contact-icon {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 15px;
+    margin-right: 5px;
+}
+
+.costumer-service-link {
+    display: inline-block !important;
+    vertical-align: middle;
+    text-decoration: none;
+    color: #132a32 !important;
+    font-size: 16px;
+}
+
+.costumer-service-link a{
+    display: inline-block !important;
+    vertical-align: middle;
+    text-decoration: none;
+    color: #132a32 !important;
+    font-size: 16px;
+}
+
+@media screen and (min-width: 769px) {
+
+  .left {
+      float: left !important;
+  }
+
+  .right {
+      float: right !important;
+  }
+
+  .footer-video {
+    margin-bottom: 20px;
+  }
+
+  .footer-video-mobile {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  .footer-video {
+    display: none;
+  }
+
+  .service-title {
+    margin-left: 20px !important;
+  }
+
+  .service-subtitle {
+    margin-left: 20px !important;
+  }
+
+  .box-border-top {
+    border-top: 0 !important;
+  }
+
+  .absolute-top {
+    display: none;
+  }
+
+}
